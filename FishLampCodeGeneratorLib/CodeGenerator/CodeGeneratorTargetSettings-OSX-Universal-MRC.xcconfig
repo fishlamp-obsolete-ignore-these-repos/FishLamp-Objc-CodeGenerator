@@ -3,5 +3,5 @@
 //  Copyright (c) 2012 GreenTongue Software. All rights reserved.
 //
 
-#include "FishLampXcodeConfigs/FishLampTargetSettings-OSX-3264-MRC.xcconfig"
+#include "FishLampXcodeConfigs/FishLampTargetSettings-OSX-Universal-MRC.xcconfig"
 #include "CodeGenerator/CodeGeneratorSharedConfig.xcconfig"
