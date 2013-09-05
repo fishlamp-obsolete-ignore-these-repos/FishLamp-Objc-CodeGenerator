@@ -7,9 +7,9 @@
 //
 
 #import "FLCodeGenerator.h"
-#import "FLObservable.h"
+#import "FLAsyncMessageBroadcaster.h"
 
-@interface FLObjcCodeGenerator : FLObservable<FLCodeGenerator> {
+@interface FLObjcCodeGenerator : FLAsyncMessageBroadcaster<FLCodeGenerator> {
 @private
 }
 

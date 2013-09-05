@@ -7,12 +7,12 @@
 //
 
 #import "FishLamp.h"
-#import "FLObservable.h"
+#import "FLAsyncMessageBroadcaster.h"
 
 @class FLCodeProject;
 @protocol FLCodeGeneratorFile;
 
-@protocol FLCodeGenerator <FLObservable, NSObject>
+@protocol FLCodeGenerator <FLAsyncMessageBroadcaster, NSObject>
 - (void) generateCodeForProject:(FLCodeProject*) project;
 @end
 
